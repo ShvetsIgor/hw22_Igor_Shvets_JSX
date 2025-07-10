@@ -78,5 +78,5 @@ function App1() {
 
 
 
-// root.render(<App/>); //class-component var
-root.render(<App1/>);   //functional-component var
+root.render(<App/>); //class-component var
+// root.render(<App1/>);   //functional-component var
