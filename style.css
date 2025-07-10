@@ -1,0 +1,26 @@
+body{
+    background-color: darkgray;
+}
+.car-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    font-family: Verdana, sans-serif;
+    margin: 0 auto;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.card{
+    display: flex;
+    border: 1px solid black;
+    width: calc((100% / 3) - 1rem);
+    align-content: center;
+    justify-content: center;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
